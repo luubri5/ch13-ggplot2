@@ -1,0 +1,24 @@
+---
+title: "Participation 6"
+author: "Brian Luu"
+output: html_document
+---
+
+```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
+library('knitr')
+library('dplyr')
+library('ggplot2')
+source("exercise.R")
+setwd("~/Documents/ch13-ggplot2/exercise-2")
+
+```
+
+#Plots:
+```{r pressure, echo=FALSE}
+knitr::include_graphics("plot_1.png")
+knitr::include_graphics("plot_2.png")
+knitr::include_graphics("plot_3.png")
+knitr::include_graphics("plot_4.png")
+knitr::include_graphics("plot_5.png")
+```
+
